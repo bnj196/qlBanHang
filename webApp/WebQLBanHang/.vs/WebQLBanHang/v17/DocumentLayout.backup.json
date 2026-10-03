@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\controllers\\donvitinhscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\controllers\\donvitinhscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\models\\donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\models\\donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\webqlbanhang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\webqlbanhang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|e:\\1_ntu_dictionary\\phattrien_webapp\\vtt_66133559_qlbanhang\\webapp\\webqlbanhang\\webqlbanhang\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DCCCF8-29B3-486C-BE8B-9E035DC7F03D}|WebQLBanHang\\WebQLBanHang.csproj|solutionrelative:webqlbanhang\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DonViTinhsController.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\DonViTinhsController.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Controllers\\DonViTinhsController.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\DonViTinhsController.cs",
+              "RelativeToolTip": "WebQLBanHang\\Controllers\\DonViTinhsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:12:41.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DonViTinh.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Models\\DonViTinh.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Models\\DonViTinh.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Models\\DonViTinh.cs",
+              "RelativeToolTip": "WebQLBanHang\\Models\\DonViTinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:05:08.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebQLBanHang\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T08:13:24.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Views\\SanPhams\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Views\\SanPhams\\Index.cshtml",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Views\\SanPhams\\Index.cshtml",
+              "RelativeToolTip": "WebQLBanHang\\Views\\SanPhams\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T07:47:15.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "WebQLBanHang\\Controllers\\SanPhamsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADgvy4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T07:44:56.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebQLBanHang\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T07:15:20.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Models\\SanPham.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Models\\SanPham.cs",
+              "RelativeToolTip": "WebQLBanHang\\Models\\SanPham.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAApwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T07:21:43.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Program.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Program.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Program.cs",
+              "RelativeToolTip": "WebQLBanHang\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:55:58.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebQLBanHang\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:54:34.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebQLBanHang\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebQLBanHang\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvzMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T04:14:48.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\appsettings.json",
+              "RelativeDocumentMoniker": "WebQLBanHang\\appsettings.json",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\appsettings.json",
+              "RelativeToolTip": "WebQLBanHang\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T04:06:52.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebQLBanHang.csproj",
+              "DocumentMoniker": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\WebQLBanHang.csproj",
+              "RelativeDocumentMoniker": "WebQLBanHang\\WebQLBanHang.csproj",
+              "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\WebQLBanHang.csproj",
+              "RelativeToolTip": "WebQLBanHang\\WebQLBanHang.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-18T04:02:17.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

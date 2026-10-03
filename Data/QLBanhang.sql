@@ -1,0 +1,45 @@
+-- Tạo cơ sở dữ liệu QLBanHang
+CREATE DATABASE QLBanHang;
+GO
+
+-- Sử dụng cơ sở dữ liệu vừa tạo
+USE QLBanHang;
+GO
+
+-- 1. Bảng Nhóm Sản Phẩm (NhomSP)
+CREATE TABLE NhomSP (
+    MaNSP VARCHAR(10) PRIMARY KEY,
+    TenNSP NVARCHAR(100) NOT NULL
+);
+GO
+
+-- 2. Bảng Loại Sản Phẩm (LoaiSP)
+CREATE TABLE LoaiSP (
+    MaLSP VARCHAR(10) PRIMARY KEY,
+    TenLSP NVARCHAR(100) NOT NULL,
+    MaNSP VARCHAR(10) NOT NULL,
+    CONSTRAINT FK_LoaiSP_NhomSP FOREIGN KEY (MaNSP) REFERENCES NhomSP(MaNSP)
+);
+GO
+
+-- 3. Bảng Đơn Vị Tính (DonViTinh)
+CREATE TABLE DonViTinh (
+    MaDVT VARCHAR(10) PRIMARY KEY,
+    TenDVT NVARCHAR(50) NOT NULL
+);
+GO
+
+-- 4. Bảng Sản Phẩm (SanPham)
+CREATE TABLE SanPham (
+    MaSP VARCHAR(10) PRIMARY KEY,
+    TenSP NVARCHAR(150) NOT NULL,
+    DonGia DECIMAL(18, 2) DEFAULT 0 CHECK (DonGia >= 0),
+    AnhSP VARCHAR(255),
+    MoTaChiTiet NTEXT,
+    ThongTinChiTiet TEXT,
+    MaLSP VARCHAR(10) NOT NULL,
+    MaDVT VARCHAR(10) NOT NULL,
+    CONSTRAINT FK_SanPham_LoaiSP FOREIGN KEY (MaLSP) REFERENCES LoaiSP(MaLSP),
+    CONSTRAINT FK_SanPham_DonViTinh FOREIGN KEY (MaDVT) REFERENCES DonViTinh(MaDVT)
+);
+GO
