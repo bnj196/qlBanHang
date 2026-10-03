@@ -1,0 +1,38 @@
+@model WebQLBanHang.Models.LoaiSP
+
+@{
+    ViewData["Title"] = "Thêm loại sản phẩm";
+}
+
+<h1>Thêm loại sản phẩm</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="MaLSP" class="form-label"></label>
+                <input asp-for="MaLSP" class="form-control" />
+                <span asp-validation-for="MaLSP" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TenLSP" class="form-label"></label>
+                <input asp-for="TenLSP" class="form-control" />
+                <span asp-validation-for="TenLSP" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="MaNSP" class="form-label"></label>
+                <select asp-for="MaNSP" class="form-select" asp-items="ViewBag.MaNSP">
+                    <option value="">-- Chọn nhóm sản phẩm --</option>
+                </select>
+                <span asp-validation-for="MaNSP" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

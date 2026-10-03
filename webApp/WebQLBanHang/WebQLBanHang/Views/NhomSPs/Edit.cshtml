@@ -1,0 +1,31 @@
+@model WebQLBanHang.Models.NhomSP
+
+@{
+    ViewData["Title"] = "Sửa nhóm sản phẩm";
+}
+
+<h1>Sửa nhóm sản phẩm</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" asp-route-id="@Model.MaNSP" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaNSP" />
+            <div class="mb-3">
+                <label asp-for="MaNSP" class="form-label"></label>
+                <input asp-for="MaNSP" class="form-control" disabled />
+            </div>
+            <div class="mb-3">
+                <label asp-for="TenNSP" class="form-label"></label>
+                <input asp-for="TenNSP" class="form-control" />
+                <span asp-validation-for="TenNSP" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

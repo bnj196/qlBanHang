@@ -1,0 +1,42 @@
+@model IEnumerable<WebQLBanHang.Models.LoaiSP>
+
+@{
+    ViewData["Title"] = "Loại sản phẩm";
+    var nhomSPNames = (IDictionary<string, string>)ViewBag.NhomSPNames;
+}
+
+<h1>Loại sản phẩm</h1>
+
+@if (TempData["ErrorMessage"] is string errorMessage)
+{
+    <div class="alert alert-danger" role="alert">@errorMessage</div>
+}
+
+<p><a asp-action="Create" class="btn btn-primary">Thêm loại sản phẩm</a></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã loại</th>
+            <th>Tên loại</th>
+            <th>Nhóm sản phẩm</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            nhomSPNames.TryGetValue(item.MaNSP, out var tenNhom);
+            <tr>
+                <td>@item.MaLSP</td>
+                <td>@item.TenLSP</td>
+                <td>@(tenNhom ?? item.MaNSP)</td>
+                <td class="text-nowrap">
+                    <a asp-action="Edit" asp-route-id="@item.MaLSP">Sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.MaLSP">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.MaLSP">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "WebQLBanHang\\Controllers\\DonViTinhsController.cs",
               "ToolTip": "E:\\1_NTU_Dictionary\\phattrien_webApp\\vtt_66133559_qlBanHang\\webApp\\WebQLBanHang\\WebQLBanHang\\Controllers\\DonViTinhsController.cs",
               "RelativeToolTip": "WebQLBanHang\\Controllers\\DonViTinhsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-26T08:12:41.736Z",
               "EditorCaption": ""
@@ -87,12 +87,7 @@
               "RelativeToolTip": "WebQLBanHang\\Models\\DonViTinh.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T08:05:08.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "WhenOpened": "2026-09-26T08:05:08.798Z"
             },
             {
               "$type": "Document",
@@ -104,8 +99,7 @@
               "RelativeToolTip": "WebQLBanHang\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-19T08:13:24.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:13:24.576Z"
             },
             {
               "$type": "Document",
@@ -117,8 +111,7 @@
               "RelativeToolTip": "WebQLBanHang\\Views\\SanPhams\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-19T07:47:15.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T07:47:15.777Z"
             },
             {
               "$type": "Document",
@@ -154,8 +147,7 @@
               "RelativeToolTip": "WebQLBanHang\\Models\\SanPham.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAApwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T07:21:43.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T07:21:43.499Z"
             },
             {
               "$type": "Document",
@@ -167,8 +159,7 @@
               "RelativeToolTip": "WebQLBanHang\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T06:55:58.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T06:55:58.4Z"
             },
             {
               "$type": "Document",
@@ -180,8 +171,7 @@
               "RelativeToolTip": "WebQLBanHang\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T06:54:34.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T06:54:34.437Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,11 @@
               "RelativeToolTip": "WebQLBanHang\\WebQLBanHang.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-18T04:02:17.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-18T04:02:17.994Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

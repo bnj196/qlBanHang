@@ -1,0 +1,38 @@
+@model IEnumerable<WebQLBanHang.Models.NhomSP>
+
+@{
+    ViewData["Title"] = "Nhóm sản phẩm";
+}
+
+<h1>Nhóm sản phẩm</h1>
+
+@if (TempData["ErrorMessage"] is string errorMessage)
+{
+    <div class="alert alert-danger" role="alert">@errorMessage</div>
+}
+
+<p><a asp-action="Create" class="btn btn-primary">Thêm nhóm sản phẩm</a></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã nhóm</th>
+            <th>Tên nhóm</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaNSP</td>
+                <td>@item.TenNSP</td>
+                <td class="text-nowrap">
+                    <a asp-action="Edit" asp-route-id="@item.MaNSP">Sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.MaNSP">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.MaNSP">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,20 @@
+@model WebQLBanHang.Models.LoaiSP
+
+@{
+    ViewData["Title"] = "Xóa loại sản phẩm";
+}
+
+<h1>Xóa loại sản phẩm</h1>
+<div class="alert alert-warning" role="alert">Bạn có chắc muốn xóa loại này? Loại sản phẩm đang được sản phẩm sử dụng sẽ không thể xóa.</div>
+<dl class="row">
+    <dt class="col-sm-3">Mã loại</dt>
+    <dd class="col-sm-9">@Model.MaLSP</dd>
+    <dt class="col-sm-3">Tên loại</dt>
+    <dd class="col-sm-9">@Model.TenLSP</dd>
+    <dt class="col-sm-3">Mã nhóm</dt>
+    <dd class="col-sm-9">@Model.MaNSP</dd>
+</dl>
+<form asp-action="Delete" asp-route-id="@Model.MaLSP" method="post">
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="Index" class="btn btn-outline-secondary">Hủy</a>
+</form>

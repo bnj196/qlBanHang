@@ -1,0 +1,18 @@
+@model WebQLBanHang.Models.NhomSP
+
+@{
+    ViewData["Title"] = "Xóa nhóm sản phẩm";
+}
+
+<h1>Xóa nhóm sản phẩm</h1>
+<div class="alert alert-warning" role="alert">Bạn có chắc muốn xóa nhóm này? Nhóm đang được loại sản phẩm sử dụng sẽ không thể xóa.</div>
+<dl class="row">
+    <dt class="col-sm-3">Mã nhóm</dt>
+    <dd class="col-sm-9">@Model.MaNSP</dd>
+    <dt class="col-sm-3">Tên nhóm</dt>
+    <dd class="col-sm-9">@Model.TenNSP</dd>
+</dl>
+<form asp-action="Delete" asp-route-id="@Model.MaNSP" method="post">
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="Index" class="btn btn-outline-secondary">Hủy</a>
+</form>

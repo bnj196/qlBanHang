@@ -1,0 +1,18 @@
+@model WebQLBanHang.Models.LoaiSP
+
+@{
+    ViewData["Title"] = "Chi tiết loại sản phẩm";
+}
+
+<h1>Chi tiết loại sản phẩm</h1>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">Mã loại</dt>
+    <dd class="col-sm-9">@Model.MaLSP</dd>
+    <dt class="col-sm-3">Tên loại</dt>
+    <dd class="col-sm-9">@Model.TenLSP</dd>
+    <dt class="col-sm-3">Mã nhóm sản phẩm</dt>
+    <dd class="col-sm-9">@Model.MaNSP</dd>
+</dl>
+<a asp-action="Edit" asp-route-id="@Model.MaLSP" class="btn btn-primary">Sửa</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>

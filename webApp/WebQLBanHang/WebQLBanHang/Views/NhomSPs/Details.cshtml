@@ -1,0 +1,16 @@
+@model WebQLBanHang.Models.NhomSP
+
+@{
+    ViewData["Title"] = "Chi tiết nhóm sản phẩm";
+}
+
+<h1>Chi tiết nhóm sản phẩm</h1>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">Mã nhóm</dt>
+    <dd class="col-sm-9">@Model.MaNSP</dd>
+    <dt class="col-sm-3">Tên nhóm</dt>
+    <dd class="col-sm-9">@Model.TenNSP</dd>
+</dl>
+<a asp-action="Edit" asp-route-id="@Model.MaNSP" class="btn btn-primary">Sửa</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>
